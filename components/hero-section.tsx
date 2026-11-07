@@ -52,9 +52,9 @@ export function HeroSection() {
               </Button>
               <Button variant="secondary" asChild className="relative overflow-hidden group">
                 <Link
-                  href="/documents/SHADY EHAB ASSAD - SOC Analyst Resume.pdf"
+                  href="/documents/SHADY EHAB ASSAD  -  Resume.pdf"
                   target="_blank"
-                  download="SHADY EHAB ASSAD - SOC Analyst Resume.pdf"
+                  download="SHADY EHAB ASSAD  -  Resume.pdf"
                 >
                   <Download className="w-4 h-4 mr-2" />
                   <span className="relative z-10">Resume</span>

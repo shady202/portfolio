@@ -91,12 +91,19 @@ const projects = [
     repo: "https://github.com/shady202/PhishLang-MobileBERT-Phishing-Detection",
   },
   {
-    title: "Ultrasonic RFID Security Gate",
-    desc: "Arduino IoT access-control prototype",
-    body: "Built an Arduino-based security gate combining ultrasonic proximity zones, MFRC522 RFID authentication, LCD feedback, status LEDs, a servo-controlled barrier and an unauthorized-entry alarm.",
-    tags: ["Arduino", "IoT", "Network Segmentation"],
+    title: "DMZ Security Gate Prototype",
+    desc: "Arduino IoT security prototype, 2026",
+    body: "Applied security engineering and network architecture principles on an Arduino IoT gateway to test perimeter defenses and attack surface, and documented test cases and findings.",
+    tags: ["Arduino", "DMZ", "Access Control", "Network Security"],
     icon: Cpu,
     repo: "https://github.com/shady202/Ultrasonic-RFID-Security-Gate-System-IOT",
+  },
+  {
+    title: "AI-Based Deepfake Detection for Bank Security",
+    desc: "CNN transfer-learning project, 2025",
+    body: "Developed CNN transfer-learning models in Python to detect deepfake videos for banking security, evaluating model performance and false-positive trade-offs.",
+    tags: ["Python", "TensorFlow", "CNN", "Deepfake Detection"],
+    icon: ShieldCheck,
   },
   {
     title: "Enterprise Network Design",
@@ -196,15 +203,13 @@ const courses = [
 ]
 
 const certifications = [
-  { title: "Microsoft Certified: Cloud and AI Security Engineer Associate", issuer: "Microsoft", date: "Oct 2026" },
-  { title: "MEEZA Data Centre Fundamentals course", issuer: "MEEZA", date: "Oct 2026" },
+  { title: "Implementing End-to-End Security Controls for Cloud and AI Workloads", issuer: "Microsoft", date: "2026" },
   { title: "Intro to Splunk", issuer: "Splunk", date: "May 2026" },
-  { title: "Deloitte Cybersecurity Job Simulation", issuer: "Deloitte (Forage)", date: "Mar 2026" },
-  { title: "Mastercard Cybersecurity Job Simulation", issuer: "Mastercard (Forage)", date: "Mar 2026" },
-  { title: "Elite Security Operations Center (SOC) Program", issuer: "Asia Pacific University", date: "2024" },
+  { title: "Deloitte Cybersecurity Job Simulation Certificate", issuer: "Deloitte", date: "Mar 2026" },
+  { title: "Elite Security Operations Center (SOC)", issuer: "Tecforte", date: "Aug 2024" },
   { title: "CCNAv7: Switching, Routing, and Wireless Essentials", issuer: "Cisco Networking Academy", date: "Aug 2024" },
   { title: "CCNAv7: Introduction to Networks", issuer: "Cisco Networking Academy", date: "Sep 2023" },
-  { title: "International Battle of Hackers (IBOH)", issuer: "APU x FSEC", date: "Sep 2024" },
+  { title: "International Battle of Hackers (IBOH)", issuer: "Asia Pacific University of Technology and Innovation (APU)", date: "Sep 2024" },
 ]
 
 export default function Home() {

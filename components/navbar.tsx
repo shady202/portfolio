@@ -94,9 +94,9 @@ export function Navbar() {
               transition={{ delay: 0.8 }}
             >
               <Link
-                href="/documents/SHADY EHAB ASSAD - SOC Analyst Resume.pdf"
+                href="/documents/SHADY EHAB ASSAD  -  Resume.pdf"
                 target="_blank"
-                download="SHADY EHAB ASSAD - SOC Analyst Resume.pdf"
+                download="SHADY EHAB ASSAD  -  Resume.pdf"
               >
                 <Button variant="outline" size="sm" className="relative overflow-hidden group">
                   <span className="relative z-10">Download Resume</span>
@@ -158,9 +158,9 @@ export function Navbar() {
               ))}
               <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5 }}>
                 <Link
-                  href="/documents/SHADY EHAB ASSAD - SOC Analyst Resume.pdf"
+                  href="/documents/SHADY EHAB ASSAD  -  Resume.pdf"
                   target="_blank"
-                  download="SHADY EHAB ASSAD - SOC Analyst Resume.pdf"
+                  download="SHADY EHAB ASSAD  -  Resume.pdf"
                   className="block px-3 py-2 rounded-md text-base font-medium hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
